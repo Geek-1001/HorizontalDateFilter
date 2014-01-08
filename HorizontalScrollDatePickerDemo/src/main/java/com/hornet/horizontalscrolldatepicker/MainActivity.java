@@ -16,7 +16,7 @@ public class MainActivity extends Activity {
         setContentView(R.layout.activity_main);
 
         HorizontalDateFilter datePickerWeek = (HorizontalDateFilter) findViewById(R.id.datePicker_week);
-        datePickerWeek.setHorizontalDatePickerClickListener(new HorizontalDateFilter.HorizontalDateFilterClickListener() {
+        datePickerWeek.setHorizontalDateFilterClickListener(new HorizontalDateFilter.HorizontalDateFilterClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id, Calendar currentDate) {
             }

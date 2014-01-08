@@ -115,7 +115,7 @@ public class HorizontalDateFilter extends Gallery {
         return true;
     }
 
-    public void setHorizontalDatePickerClickListener(HorizontalDateFilterClickListener listener){
+    public void setHorizontalDateFilterClickListener(HorizontalDateFilterClickListener listener){
         this.listener = listener;
     }
 
