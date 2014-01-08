@@ -1,0 +1,44 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/container"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="20sp"
+        android:text="Week:" />
+
+    <com.hornet.horizontalscrolldatepicker.HorizontalDateFilter
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="10dp"
+        app:dateToPick="week"
+        android:id="@+id/datePicker_week"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="20sp"
+        android:text="Customized:" />
+
+    <com.hornet.horizontalscrolldatepicker.HorizontalDateFilter
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="10dp"
+        app:itemColor="@android:color/holo_blue_dark"
+        app:itemColorPressed="@android:color/holo_green_dark"
+        app:textColor="#111"
+        app:background="#ff2f2f2f"
+        app:dateToPick="month" />
+
+
+</LinearLayout>
