@@ -1,6 +1,6 @@
 #HorizontalDateFilter
 
-Simple custom view for date choosing. 
+Custom view for date choosing. 
 
 Use-Case: you need to make request to database to search data at specific date. 
 
